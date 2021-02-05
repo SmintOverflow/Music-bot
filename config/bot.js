@@ -8,7 +8,7 @@ module.exports = {
     },
 
     discord: {
-        token: 'ODA3MjYyMDY2MjMwMDM0NDgz.YB1bYg.wguJ1g8sM6ShR3v7JHSMQb04ves',
+        token: process.env.TOKEN ,
         prefix: '?',
         activity: 'Listening To Connors Moans',
     },
